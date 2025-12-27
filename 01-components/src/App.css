@@ -1,0 +1,67 @@
+.main {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+
+.parent {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.card {
+  text-align: center;
+  background-color: #333;
+  width: 350px;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nav {
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input {
+  border: 2px solid white;
+  background-color: #333;
+  margin: 10px;
+  padding: 5px; 
+}
+
+.counter {
+  padding: 10px;
+  margin: 10px;
+}
+
+.counter button {
+  margin: 20px 10px; 
+}
+
+.counter h1 {
+  background-color: #333;
+  width: fit-content;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+
+
